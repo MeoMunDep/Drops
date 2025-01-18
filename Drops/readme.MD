@@ -18,7 +18,13 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+
+Before running the bot, make sure you have the following installed:
+
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
+
+Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
 
 > Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
 
@@ -44,11 +50,11 @@ To get started with the bot, follow these steps:
   "proxyRotationInterval": 2,
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
+  "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "playGames": true,
-  "referralCode": "hjBn8ra6" // Do not change it if you want to support me ^^
+  "referralCode": "hjBn8ra6"
 }
+
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
@@ -60,6 +66,7 @@ query_id.../user...
 ```
 
 ### 3. `wallets.txt` 💼 - Cannot update yet.
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
 ```txt - wallet address
 abc...xyz
@@ -79,6 +86,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it.
-> To run the bot, use the following command: `cd drops-main/drops; node bot`
+> To run the bot, use the following command: `cd drops-main/drops; node meomundep`
 
 🎇Enjoy!
